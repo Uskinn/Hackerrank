@@ -24,9 +24,18 @@ import UIKit
 //
 //5000000015
 
+
 func printTheSum(of myArray: [Int]) {
-   var sum = 0
-   sum = myArray.reduce(0, +)
+    var sum = 0
+    
+    // There are two ways to solve this problem:
+    // 1.
+    sum = myArray.reduce(0, +)
+    
+    // 2.
+    //    for i in myArray {
+    //        sum += i
+    //    }
     print(sum)
 }
 
