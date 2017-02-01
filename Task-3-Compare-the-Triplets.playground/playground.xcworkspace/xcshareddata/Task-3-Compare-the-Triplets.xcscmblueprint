@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "671D6A4807B19004ACBE37231F210FE412457398",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "671D6A4807B19004ACBE37231F210FE412457398" : 9223372036854775807,
+    "5A29B29B9B8CFBCA28F072170B70F021754525D7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EAC9DF10-9DC3-4DFE-875D-5C7349AC51F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "671D6A4807B19004ACBE37231F210FE412457398" : "Hackerrank\/",
+    "5A29B29B9B8CFBCA28F072170B70F021754525D7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Task-3-Compare-the-Triplets",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Task-3-Compare-the-Triplets.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Uskinn\/Uber-SplashScreen-Tutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A29B29B9B8CFBCA28F072170B70F021754525D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Uskinn\/Hackerrank.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "671D6A4807B19004ACBE37231F210FE412457398"
+    }
+  ]
+}
