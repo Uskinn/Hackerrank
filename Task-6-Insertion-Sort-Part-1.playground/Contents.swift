@@ -49,28 +49,28 @@ import UIKit
 
 
 func insertnumber(in myArr: [Int]) -> [Int] {
-    
     guard myArr.count > 1 else { return myArr }
     
+    // sort an array in place by making the copy
     var copyOfMyArray = myArr
     
-    for i in 1..<copyOfMyArray.count {
-       // print(i)
-        
-        var y = i
-// let arr = [2, 4, 6, 8, 3]       
+    for index in 1..<copyOfMyArray.count {
+        print("1. for index: \(index) in 1 < \(copyOfMyArray.count)")
+        var y = index
+        print("2. y = \(y)")
+//   index = [0, 1, 2, 3, 4, 5]
+// let arr = [2, 1, 4, 6, 8, 3]
         let temp = copyOfMyArray[y]
-        print(temp)
+        print("3. let temp: \(temp) = copyOfMyArray[y]: \(copyOfMyArray[y])\n")
         
         while y > 0 && temp < copyOfMyArray[y - 1] {
-            print("y = \(y)\n")
-            print("b[y - 1] = \(copyOfMyArray[y - 1])\n")
+            print("4. while y: \(y) > 0 && temp: \(temp) < copyOfMyArray[y - 1]: \(copyOfMyArray[y - 1])")
             
             copyOfMyArray[y] = copyOfMyArray[y - 1]
-            print("b[y] = \(copyOfMyArray[y])\n")
+            print("5. copyOfMyArray[y] = \(copyOfMyArray[y])\n")
             
             y -= 1
-            print("y after iter. = \(y)\n")
+            print("6. y after iter. = \(y)\n")
         }
         
         copyOfMyArray[y] = temp
@@ -78,22 +78,9 @@ func insertnumber(in myArr: [Int]) -> [Int] {
     }
     
     return copyOfMyArray
-    
-//    var resultArr: [Int] = []
-//    
-//    let lastNumber = myArr.last
-//    
-//    for index in myArr {
-//        
-//        
-//    }
-//    
-//    
-//    
-//    return resultArr
 }
 
-let arr = [2, 4, 6, 8, 3]
+let arr = [5, 2, 1, 4, 6, 8, 3]
 
 insertnumber(in: arr)
 
